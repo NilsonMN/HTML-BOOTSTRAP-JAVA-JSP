@@ -1,0 +1,235 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Open Sans", sans-serif;
+}
+.fondo
+{
+    background-image: url(../img/fondologin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+.interfaz
+{
+    background-color: rgba(194, 194, 194, 0.76);;
+    height: 100vh;
+    width: 33%;
+    position: absolute;
+    left:0;
+    min-width: 400px;
+    transition: all 0.8s;
+}
+.interfazregis 
+{
+    background-color: rgba(194, 194, 194, 0.76);;
+    height: 100vh;
+    width: 33%;
+    position: absolute;
+    right:0;
+    min-width: 400px;
+    display: none;
+    transition: all 0.8s;
+}
+.centrarform
+{
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    left: 10%;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translateX(-50%);
+    transition: 1.5s;
+}
+.logo img{
+	height: 200px;
+}
+.titulo
+{
+    position: absolute;
+    left: 52%;
+    top: 23%;
+    transform: translateX(-50%);
+    transition: 1.5s;
+}
+.titulo h2
+{
+	font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+.formulario
+{
+    position: relative;
+    left: 55%;
+    top: 420px;
+    margin-bottom: 60px;
+    transform: translateX(-50%);
+    transition: all .5s;
+}
+
+.interfazregis .centrarform .formulario
+{
+    position: relative;
+    left: 55%;
+    top: 300px;
+    margin-bottom: 60px;
+    transform: translateX(-50%);
+    transition: all .5s;
+}
+.interfazregis .centrarform .formulario .hijos
+{
+    display: inline-block;
+    padding: 5px;
+}
+.interfazregis .centrarform .formulario .hijos input
+{
+    width: 210px;
+    height: 50px;
+    border-radius: 18px ;
+    padding: 0 5px;
+    border: 2px solid #000000; 
+    background-color: transparent;
+}
+.formulario input
+{
+    width: 450px;
+    height: 50px;
+    border-radius: 18px ;
+    padding: 0 18px;
+    border: 2px solid #000000; 
+    background-color: transparent;
+    outline: none;
+}
+.formulario label
+{
+    position: absolute;
+    top:50%;
+    left: 18px;
+    transform: translateY(-50%);
+    color: #880000;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+.formulario .hijos #segundo
+{
+    position: absolute;
+    top:50%;
+    left: 250px;
+    transform: translateY(-50%);
+    color: #880000;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+input:focus ~ label, input:valid ~ label
+{
+    top:0;
+    left: 15px;
+    font-size: 18px;
+    padding: 0 2px;
+    background-color: rgb(155, 155, 155);;
+    transition: all 0.5s;
+}
+.hijos input:focus ~ #segundo, .hijos input:valid ~ #segundo
+{
+    top:0;
+    left: 247px;
+    font-size: 18px;
+    padding: 0 2px;
+    background-color: rgb(155, 155, 155);;
+    transition: all 0.5s;
+}
+.interfazregis .boton-login
+{
+    position: relative;
+    top: -140px;
+}
+.boton-login input
+{
+    color: #c93900;;
+    position: relative;
+    top: 400px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 160px;
+    background: #880000;
+    font-size: 20px;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s ease;
+    font-weight: 1000;
+}
+.boton-login input:hover
+{
+    cursor:pointer;
+    background: #7a0000;
+    box-shadow: 0 0 5px #7a0000,0 0 20px #7a0000;
+
+    transition: 0.3s ease;
+}
+.interfazregis .nocontra
+{
+    position: relative;
+    top: 280px;
+    left: 29%;
+}
+.nocontra
+{
+    position: relative;
+    top: 450px;
+    left: 29%;
+}
+.nocontra a
+{
+    font-size: 22px;
+    text-decoration:none;
+	color: #c93900;
+    margin-bottom:15px;
+	transition: all .3s ease;
+}
+.nocontra a:hover
+{
+    color: #000000;
+	padding-left:6px;
+    font-size: 23px;
+    transition: all .3s;
+}
+.derechos 
+{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    left: 34%;
+}  
+.confirm
+{
+    position: relative;
+    top:450px;
+    height: 50px;
+    width: 400px;
+}
+.confirm h2
+{
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+}

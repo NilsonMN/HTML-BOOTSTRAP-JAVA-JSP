@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>FerreteriaPrueba</display-name>
+    <!-- Definición del servlet -->
+    <servlet>
+        <servlet-name>CarritoServlet</servlet-name>
+        <servlet-class>Servlet.CarritoServlet</servlet-class>
+    </servlet>
+    <!-- Mapeo del servlet -->
+    <servlet>
+        <servlet-name>ClienteServlet</servlet-name>
+        <servlet-class>Servlet.ClienteServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Compra</servlet-name>
+        <servlet-class>Servlet.Compra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CompraServlet</servlet-name>
+        <servlet-class>Servlet.CompraServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarritoServlet</servlet-name>
+        <url-pattern>/CarritoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ClienteServlet</servlet-name>
+        <url-pattern>/ClienteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Compra</servlet-name>
+        <url-pattern>/Compra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CompraServlet</servlet-name>
+        <url-pattern>/CompraServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

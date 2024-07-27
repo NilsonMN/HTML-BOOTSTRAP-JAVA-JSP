@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+.contenido
+{
+    position: relative;
+}
+.slogan
+{
+    background-image: url(../img/pj/atenciona.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+}
+.slogan h2
+{
+    position: absolute;
+    top: 40%;
+    font-size: 80px;
+    font-weight: 900;
+    padding: 10px;
+}
+.slogan h3
+{
+    position: absolute;
+    top: 54%;
+    left: 9%;
+}
+.imagen
+{
+    background-image: linear-gradient(to left, rgb(134, 134, 134) 10%,rgb(184, 184, 184));
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+}
+.imagen h2
+{
+    top: 5%;
+}
+.interfaz
+{
+    background-color: rgba(0, 0, 0, 0.267);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    transition: all 0.8s;
+}
+.centrarform
+{
+    background-image: linear-gradient(to right, rgb(134, 134, 134) 10%,rgb(184, 184, 184));
+    position: absolute;
+    height: 100vh;
+    width: 50vw;
+    right: 0;
+}
+.titulo
+{
+    position: relative;
+    top: 50px;
+    transition: 1.5s;
+    
+}
+h2
+{
+    position: relative;
+    left: 5%;
+	font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    color:#c93900;
+}
+.titulo h3
+{
+    position: relative;
+    left: 5%;
+	font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.formulario
+{
+    position: relative;
+    margin-top: 60px;
+    left: 23%;
+    transition: all .5s;
+}
+
+.interfazregis .centrarform .formulario
+{
+    position: relative;
+    margin-bottom: 60px;
+    transition: all .5s;
+}
+.interfazregis .centrarform .formulario .hijos
+{
+    display: inline-block;
+    padding: 5px;
+}
+.interfazregis .centrarform .formulario .hijos input
+{
+    width: 210px;
+    height: 50px;
+    border-radius: 18px ;
+    padding: 0 5px;
+    border: 2px solid #000000; 
+    background-color: transparent;
+}
+.formulario input
+{
+    width: 450px;
+    height: 50px;
+    border-radius: 18px ;
+    padding: 0 18px;
+    border: 2px solid #000000; 
+    background-color: transparent;
+    outline: none;
+}
+.formulario label
+{
+    position: absolute;
+    top:30%;
+    left: 15px;
+    color: #880000;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+.formulario .hijos #segundo
+{
+    position: absolute;
+    top:30%;
+    left: 250px;
+    color: #880000;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+input:focus ~ label, input:valid ~ label
+{
+    top:0;
+    left: 15px;
+    font-size: 18px;
+    padding: 0 2px;
+    background-color: rgb(184, 184, 184);
+    transition: all 0.5s;
+}
+.hijos input:focus ~ #segundo, .hijos input:valid ~ #segundo
+{
+    top:0;
+    padding: 0 2px;
+    background-color: rgb(184, 184, 184);
+    transition: all 0.5s;
+}
+#select_box
+{
+   appearance: none;
+   padding: 0 30px 0 15px;
+   width: 450px;
+   height: 50px;
+   color: #880000;
+   border: 2px #000000;
+   background-color: transparent;
+   font-size: 20px;
+   border-radius: 20px;
+}
+.interfazregis .boton-login
+{
+    position: relative;
+}
+button
+{
+    color: #c93900;;
+    position: absolute;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 160px;
+    background: #880000;
+    font-size: 20px;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s ease;
+    font-weight: 1000;
+}
+button:hover
+{
+    cursor:pointer;
+    background: #7a0000;
+    box-shadow: 0 0 5px #7a0000,0 0 20px #7a0000;
+
+    transition: 0.3s ease;
+}
+#textarea
+{
+    height: 150px;
+}
+iframe
+{
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}

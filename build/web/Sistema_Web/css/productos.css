@@ -1,0 +1,8 @@
+.slogan
+{
+    position: relative;
+    background: url(../img/StockTubo.jpeg);
+    background-size: cover;
+    background-position:center;
+    height: 30vh;
+}

@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(153, 153, 153, 0.514);
+    font-family: "Open Sans", sans-serif;
+}
+.cont
+{
+    background-color: black;
+}
+.message
+{
+    background-image: url(../img/StockTubo.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+img
+{
+    border-radius: 20%;
+}
+.message h2
+{
+    width: 85%;
+    color: rgb(207, 207, 207);
+    font-size: 40px;
+    background-color: rgba(153, 153, 153, 0.514);
+    border-radius: 50px;
+    text-align: center;
+    position:relative;
+    left: 170px;
+    top:480px;
+    transition: all 1s;
+}
+.message h2:hover
+{
+    scale:1.1;
+    color:#c93900;
+    background-color: rgba(46, 46, 46, 0.63);
+    transition: all 1s;
+}
+.animado
+{
+    width: 100%;
+    transition: 0.5s;
+}
+.textos
+{
+    position: relative;
+    background-color: rgba(245, 245, 245, 0.527);
+    height: 500px;
+    width: 50%;
+    border-radius: 100px;
+    
+}
+.textos h2
+{
+    position:relative;
+    top:70px;
+    text-align: center;
+    border-radius: 20px;
+    border-color: black;
+    color:#c93900;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+	margin-bottom:15px;
+	transition: all .3s ease; 
+}
+.textos h4
+{
+    width: 80%;
+    position: relative;
+    top: 100px;
+    left:50px;
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s;
+}
+.textos h4:hover
+{
+    font-size: 150%;
+    transition: all 1.5;
+}
+.nav-services h2
+{
+    text-align: center;
+	background-color: rgba(153, 153, 153, 0.514);
+    border-radius: 20px;
+    border-color: black;
+    color:rgb(253, 253, 253);
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+	margin-bottom:15px;
+	transition: all .3s ease; 
+}
+.imagena, .imagens, .imagend
+{
+    
+    width: 50%;
+    height: 52%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.imagend
+{
+    position: absolute;
+    width: 50%;
+    height: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.services img
+{
+    width: 80%;
+    height: 80%;
+    border-radius: 100px;
+}

@@ -1,0 +1,78 @@
+body
+{
+    background-color: rgba(0, 0, 0, 0.150);;
+    font-family: "Open Sans", sans-serif;
+    color: aliceblue;
+
+}
+.nav-link:hover {
+    color: red !important;
+    font-size: bold;
+    transition: 1s;
+}
+.nav-item:hover{
+    color: red !important;
+    font-size: bold;
+    transition: 1s;
+}
+.dropdown-item:hover{
+    color: red !important;
+    font-size: bold;
+    transition: 1s;
+}
+.fondot
+{
+    text-align: center;
+	background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
+    border-color: black;
+    color:rgb(253, 253, 253);
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+	margin-bottom:15px;
+	transition: all .3s ease; 
+
+}
+.colorp
+{
+    color: black;
+}
+.buttonI
+{
+    background-color: rgb(224, 224, 224);
+	border: #0a0a0a;
+	border-style: double;
+	border-radius: 100px;
+	position: absolute;
+    right: 10px;
+	font-size: 30px;
+}
+.buttonI:hover
+{
+    color: #c93900;
+	background-color: #2e2f30;
+	scale: 1.1;
+	transition: all 1s;
+}
+.h3box
+{
+	color: #ffffff;
+	border-bottom: #c93900;
+    font-size: 2em;
+}
+
+.box
+{
+    background-color:#2e2f30;
+}
+.box:hover
+{
+    scale:1.1;
+    transition: 1s;
+}
+@media (max-width: 768px) {
+    .reducir-texto {
+      font-size:50%; 
+    }
+  }
